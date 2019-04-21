@@ -1,6 +1,6 @@
 sudo: required
 services:
-  - docker 
+  - docker
 
 before-install:
   - docker build -t brtan/docker-react -f Dockerfile.dev .
