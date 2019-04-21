@@ -3,7 +3,7 @@ services:
   - docker
 
 before-install:
-  - docker build -t brtan/docker-react -f Dockerfile.dev .
+  - docker build -t brandontan/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run brtan/docker-react npm run test -- --coverage
+  - docker run brandontan/docker-react npm run test -- --coverage
