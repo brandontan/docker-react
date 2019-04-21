@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Live Production
+           I was changed on the FEATURE branch
           </p>
           <a
             className="App-link"
